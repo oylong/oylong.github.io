@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Vim命令</title>
+      <link href="/2020/04/29/Vim%E5%91%BD%E4%BB%A4/"/>
+      <url>/2020/04/29/Vim%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h4 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a>Vim</h4><table><thead><tr><th align="center">命令名称</th><th align="center">解释</th></tr></thead><tbody><tr><td align="center">set nn</td><td align="center">显示行号</td></tr><tr><td align="center">gg</td><td align="center">跳转到文件开头</td></tr><tr><td align="center">/</td><td align="center">向前/后搜索</td></tr><tr><td align="center">n/N</td><td align="center">查找上/下一处</td></tr><tr><td align="center">0(零)/$</td><td align="center">光标所在行行首/行末</td></tr><tr><td align="center">{ | }</td><td align="center">段首/尾</td></tr><tr><td align="center">- / +</td><td align="center">前/后一行行首</td></tr><tr><td align="center">()</td><td align="center">句首</td></tr><tr><td align="center">)</td><td align="center">下一句首</td></tr><tr><td align="center">M</td><td align="center">屏幕中间行</td></tr><tr><td align="center">L</td><td align="center">屏幕所显示的底行</td></tr><tr><td align="center">hjkl</td><td align="center">左下上右</td></tr><tr><td align="center">x</td><td align="center">删除光标所在字符</td></tr><tr><td align="center">R</td><td align="center">替换模式（可以替换任意字符）</td></tr><tr><td align="center">r</td><td align="center">单个替换</td></tr><tr><td align="center">dd</td><td align="center">删除光标所在的行</td></tr><tr><td align="center">D</td><td align="center">删除至行末（从光标位置开始）</td></tr><tr><td align="center">s</td><td align="center">删除字符并插入（单个字符删除，并进入插入模式）</td></tr><tr><td align="center">S</td><td align="center">删除行并插入（整行删除）</td></tr><tr><td align="center">| &gt;&gt; /&lt;&lt;|</td><td align="center">缩进（相当于一个tab）/反缩进</td></tr><tr><td align="center">=</td><td align="center">自动格式化</td></tr><tr><td align="center">J</td><td align="center">合并上下两行</td></tr><tr><td align="center">I</td><td align="center">插入到行首</td></tr><tr><td align="center">i</td><td align="center">插入</td></tr><tr><td align="center">a</td><td align="center">在光标后附件或追加</td></tr><tr><td align="center">A</td><td align="center">在行末追加</td></tr><tr><td align="center">P/p</td><td align="center">粘贴（后）/粘贴（前）</td></tr><tr><td align="center">ZZ</td><td align="center">保存退出编辑(vi，含保存)</td></tr><tr><td align="center">ZQ</td><td align="center">不保存退出编辑</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/04/28/hello-world/"/>
+      <url>/2020/04/28/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><a id="more"></a><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/2020/04/28/test/"/>
+      <url>/2020/04/28/test/</url>
+      
+        <content type="html"><![CDATA[<h4 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h4><blockquote><p>test</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
